@@ -11,21 +11,30 @@
     
     <header>
         <h1>Drum Kit V1 🥁</h1>
+        <p>Tap the corresponding keyboard to hear the sound!</p>
     </header>
 
     <div class="container">
-        <button><img src="images/tom-1.png" alt="">W</button>
-        <button><img src="images/tom-1.png" alt="">A</button>
-        <button><img src="images/tom-1.png" alt="">S</button>
-        <button><img src="images/tom-1.png" alt="">D</button>
-        <button><img src="images/tom-1.png" alt="">J</button>
-        <button><img src="images/tom-1.png" alt="">K</button>
-        <button><img src="images/tom-1.png" alt="">L</button>
+        <button id="button-w"><img src="images/tom-1.png" alt="">W</button>
+        <button id="button-a"><img src="images/tom-2.png" alt="">A</button>
+        <button id="button-s"><img src="images/tom-3.png" alt="">S</button>
+        <button id="button-d"><img src="images/tom-4.png" alt="">D</button>
+        <button id="button-j"><img src="images/crash.png" alt="">J</button>
+        <button id="button-k"><img src="images/kick-bass.png" alt="">K</button>
+        <button id="button-l"><img src="images/snare.png" alt="">L</button>
     </div>
 
     <footer>
         <p>Copyright 2022© <a href="http://www.samueloktavianus.com">Samuel Oktavianus</a></p>
     </footer>
+
+    <audio src="sounds/tom-1.mp3" id="audio-w"></audio>
+    <audio src="sounds/tom-2.mp3" id="audio-a"></audio>
+    <audio src="sounds/tom-3.mp3" id="audio-s"></audio>
+    <audio src="sounds/tom-4.mp3" id="audio-d"></audio>
+    <audio src="sounds/crash.mp3" id="audio-j"></audio>
+    <audio src="sounds/kick-bass.mp3" id="audio-k"></audio>
+    <audio src="sounds/snare.mp3" id="audio-l"></audio>
 
     <script src="drumkit.js"></script>
 </body>
